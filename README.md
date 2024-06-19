@@ -2,9 +2,11 @@
 <br/> 
 
 
-To Train, Validate and Test TFLite models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cZLYPyztifV0bpxQQN1lJTGeupbnmWbi#scrollTo=SDIhrBF0sPaM)
 
-To Train, Validate and Test YOLOV5-V8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/googlecolab/colabtools/blob/master/notebooks/colab-github-demo.ipynb)
+To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+
+To Train, Validate and Test TFLite models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I4lcX26STG4OrNsgEzjwA3XNIRD8Qrq0)
 
 <details>
 <summary>Inference with detect.py</summary>
