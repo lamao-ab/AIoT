@@ -2,7 +2,7 @@
 <br/> 
 
 
-To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://drive.google.com/file/d/1Ye6hqnVmXGgFg2OFOiJIPTWQWiqOT9re/view?usp=sharing)
+To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1Ye6hqnVmXGgFg2OFOiJIPTWQWiqOT9re/view?usp=sharing)
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1igwRzAgH7XOnJYDjh3vFyZzq1m0My5mG/view?usp=sharing)
 
