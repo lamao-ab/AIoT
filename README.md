@@ -1,6 +1,6 @@
 # A TinyML Object Detection Model
 <br/> 
-To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+To Train, Validate and Test YOLOv5 models please refer to:[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
