@@ -6,7 +6,7 @@ To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](htt
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1igwRzAgH7XOnJYDjh3vFyZzq1m0My5mG/view?usp=sharing)
 
-To Train, Validate and Test TFLite models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://drive.google.com/file/d/1yu3DFumi65EjPrqidqGxHh8gRcK163R4/view?usp=sharing)
+To Train, Validate and Test TFLite models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1I4lcX26STG4OrNsgEzjwA3XNIRD8Qrq0?usp=sharing)
 
 <details>
 <summary>Inference with detect.py</summary>
