@@ -1,10 +1,10 @@
 # A TinyML Object Detection Model
 <br/> 
-To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S2KgiI8kLQBoTxLy)
+To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-To Train, Validate and Test TFLite models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+To Train, Validate and Test TFLite 2 models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 <details>
 <summary>Inference with detect.py</summary>
