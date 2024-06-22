@@ -61,17 +61,8 @@ Then, create and activate the "wkspace-env" virtual environment, which will cont
 # source wkspace-env/bin/activate
 ```
 
-Tap the command to clone to yolov5 repository:
-
-```
-# git clone https://github.com/
-# cd yolov5
-```
-</details>
-
-<details>
-<summary>Install ultralytics pip package</summary>
-
+### yolov5
+Install ultralytics pip package
 ```
 # pip install ultralytics
 # pip install tensorflow==2.13.1
@@ -81,16 +72,35 @@ Tap the command to clone to yolov5 repository:
 Tap the command to clone to yolov5 repository:
 
 ```
-# git clone https://github.com/ultralytics/yolov5
-# cd yolov5
+# git clone https://github.com/
 ```
 </details>
 
 <details>
-  
 <summary>Run Inference </summary>
 ``` 
-# python detect.py --data /home/pi/yolov5/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/yolov5n.py  --imgsz 640 --conf 0.25
+# cd yolov5
+# python detect.py --data /home/pi/wkspace/demo/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/demo/yolov5n.py  --imgsz 640 --conf 0.25
+```
+</details>
+
+
+## yolov8
+<details>
+<summary>Run Inference </summary>
+```
+# pip install ultralytics==8.0.20
+# pip install roboflow
+# pip install --upgrade ultralytics
+```
+</details>
+
+<details>
+<summary>Run Inference </summary>
+
+```
+# cd yolov8
+# yolo task=detect mode=predict source= /home/pi/wkspace/SOD-2/test/images/  model=/home/pi/wkspace/yolov8n.pt data=/home/pi/wkspace/SOD-2/data.yaml imgsz=640 conf=0.25 save=True 
 ```
 </details>
 
