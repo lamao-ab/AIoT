@@ -15,7 +15,86 @@ To Train, Validate and Test TFLite 2 models please refer to : [![Open In Colab](
 ### 3.1 Pytorch models
 <details>
 <summary>Update the Raspberry Pi</summary>
-</details>  
+
+On a termonal run the command to update the Raspberry Pi:
+```
+sudo apt-get update
+sudo apt-get dist-upgrade
+```
+
+Then, enable the camera interface on raspberry-pi:
+```
+sudo raspi-config
+```
+Select the Interfaces tab and Enable the camera interface. and reboot the Raspberry Pi.
+
+</details>
+
+<details>
+<summary>Download this repository and create virtual environment</summary>
+
+Tap the command to clone this repository:
+
+```
+# git clone https://github.com/lamao-ab/tinyml-object-detection-models.git
+```
+
+rename the folder to "wkspace" and then enter into it:
+
+```
+# mv tinyml-Object-Detection-models wkspace
+# cd wkspace
+```
+
+Install virtualenv :
+
+```
+# sudo pip install virtualenv
+```
+
+Then, create and activate the "wkspace-env" virtual environment, which will contain all the package libraries for this environment:
+
+```
+# python -m venv wkspace-env
+```
+```
+# source wkspace-env/bin/activate
+```
+
+Tap the command to clone to yolov5 repository:
+
+```
+# git clone https://github.com/
+# cd yolov5
+```
+</details>
+
+<details>
+<summary>Install ultralytics pip package</summary>
+
+```
+# pip install ultralytics
+# pip install tensorflow==2.13.1
+# pip install -r requirements.txt 
+```
+
+Tap the command to clone to yolov5 repository:
+
+```
+# git clone https://github.com/ultralytics/yolov5
+# cd yolov5
+```
+</details>
+
+<details>
+  
+<summary>Run Inference </summary>
+``` 
+# python detect.py --data /home/pi/yolov5/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/yolov5n.py  --imgsz 640 --conf 0.25
+```
+</details>
+
+
 
 ### 3.1 TensorFlow Lite models
 <details>
@@ -41,13 +120,13 @@ Select the Interfaces tab and Enable the camera interface. and reboot the Raspbe
 Tap the command to clone this repository:
 
 ```
-# git clone https://github.com/
+# git clone https://github.com/lamao-ab/tinyml-object-detection-models.git
 ```
 
-rename the folder to "wkspace" and then cd into it:
+rename the folder to "wkspace" and then enter into it:
 
 ```
-# mv TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi wkspace
+# mv tinyml-Object-Detection-models wkspace
 # cd wkspace
 ```
 
