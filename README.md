@@ -12,6 +12,12 @@ To Train, Validate and Test TFLite 2 models please refer to : [![Open In Colab](
 
 ## 3. Deploy on rasberri-pi 
 
+### 3.1 Pytorch models
+<details>
+<summary>Update the Raspberry Pi</summary>
+</details>  
+
+### 3.1 TensorFlow Lite models
 <details>
 <summary>Update the Raspberry Pi</summary>
 
