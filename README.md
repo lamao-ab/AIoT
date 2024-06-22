@@ -79,6 +79,8 @@ demo is a folder that contain the model file and label classes file.
 ```
 </details>
 
-## 4. References
+## 4. Low Light enhacement Module
+
+## References
 
 
