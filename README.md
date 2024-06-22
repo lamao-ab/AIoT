@@ -61,8 +61,9 @@ Then, create and activate the "wkspace-env" virtual environment, which will cont
 # source wkspace-env/bin/activate
 ```
 
-### yolov5
+# yolov5
 Install ultralytics pip package
+
 ```
 # pip install ultralytics
 # pip install tensorflow==2.13.1
@@ -74,6 +75,7 @@ Tap the command to clone to yolov5 repository:
 ```
 # git clone https://github.com/
 ```
+
 </details>
 
 <details>
@@ -85,14 +87,16 @@ Tap the command to clone to yolov5 repository:
 </details>
 
 
-## yolov8
+# yolov8
 <details>
-<summary>Run Inference </summary>
+<summary>Install ultralytics </summary>
+  
 ```
 # pip install ultralytics==8.0.20
 # pip install roboflow
 # pip install --upgrade ultralytics
 ```
+
 </details>
 
 <details>
