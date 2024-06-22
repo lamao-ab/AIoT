@@ -1,12 +1,19 @@
 # A TinyML Object Detection Model
 <br/> 
 
+## 1. Introduction
+
+## 2. Training Scripts
 To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
 To Train, Validate and Test TFLite 2 models please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
+## 3. Deploy
+### 3.1 Deploy on Rasberry pi
+
+### 3.2 Deploy on Windows
 <details>
 <summary>Inference with detect.py</summary>
 
