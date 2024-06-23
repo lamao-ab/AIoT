@@ -145,10 +145,11 @@ python night_images.py
 
 </details>
 ## References
-https://github.com/ultralytics/ultralytics
-https://github.com/ultralytics/yolov5
-https://www.tensorflow.org/lite/guide/python
-https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/deploy_guides/Raspberry_Pi_Guide.md
-https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
+
+- [1] https://github.com/ultralytics/ultralytics
+- [2] https://github.com/ultralytics/yolov5
+- [3] https://www.tensorflow.org/lite/guide/python
+- [4] https://github.com/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/deploy_guides/Raspberry_Pi_Guide.md
+- [5] https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
 
 
