@@ -130,8 +130,7 @@ python detection_webcam_voice.py --modeldir=custom_models
 
 ```
 python detection_image_voice.py --modeldir=custom_models --image=dark.jpg
-python detection_image_voice.py --modeldir=custom_models --image=enhanced1-dark.jpg
-python detection_image_voice.py --modeldir=custom_models --image=enhanced2-dark.jpg
+python detection_image_voice.py --modeldir=custom_models --image=enhanced-dark.jpg
 
 ```
 </details>
