@@ -127,9 +127,13 @@ demo is a folder that contain the model file and label classes file.
 ```
 python detection_webcam_voice.py --modeldir=custom_models
 ```
+
+```
+python detection_image_voice.py --modeldir=custom_models --image=dark.jpg
+```
 </details>
 
-## 4. Nighttime low illumination image enhancement using Dark/Bright channel priors
+## 4. low light image enhancement using Dark/Bright channel priors
 
 This script is a python implementation [5] of Nighttime low illumination image enhancement with single image using bright/dark channel prior [Paper](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0251-4).
 https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
@@ -142,7 +146,7 @@ pip install numpy opencv-contrib-python
 ```
 
 ```
-python night_images.py
+python low_light_img_enhancement.py
 ```
 </details>
 
