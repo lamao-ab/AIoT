@@ -91,7 +91,7 @@ Detection results with yolov5n custom model are stored at: /home/pi/wkspace/yolo
 
 ![](detect-yolov5n.jpg)
 
-Predict:
+Predict with a test image:
 ```
 # set source=0 to start inference on webcam
 python predict.py --weights /home/pi/wkspace/custom_models/yolov8n.pt --source '/home/pi/wkspace/test.jpg'
@@ -113,7 +113,7 @@ Run Inference>
 yolo task=detect mode=predict source= /home/pi/wkspace/SOD-2/test/images/  model=/home/pi/wkspace/custom_models/yolov8n.pt data=/home/pi/wkspace/SOD-2/data.yaml imgsz=640 conf=0.25 save=True 
 ```
 
-Predict:
+Predict with a test image::
 
 ```
 #set source=0 to start inference on webcam
