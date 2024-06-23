@@ -128,10 +128,13 @@ python detection_webcam_voice.py --modeldir=demo
 </details>
 
 ## 4. Nighttime low illumination image enhancement using Dark/Bright channel priors
-We use a python implementation of Nighttime low illumination image enhancement with single image using bright/dark channel prior.
+
+This script is a python implementation of Nighttime low illumination image enhancement with single image using bright/dark channel prior:
+https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
 
 <details>
 <summary>Install dependencies and run image enhacement script/summary>
+  
 ```
 pip install numpy opencv-contrib-python
 ```
@@ -143,6 +146,5 @@ python night_images.py
 </details>
 ## References
 
-[] https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
 
 
