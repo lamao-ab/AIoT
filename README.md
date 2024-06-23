@@ -142,8 +142,8 @@ pip install numpy opencv-contrib-python
 ```
 python night_images.py
 ```
-
 </details>
+
 ## References
 
 - [1] https://github.com/ultralytics/ultralytics
