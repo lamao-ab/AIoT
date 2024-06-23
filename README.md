@@ -85,7 +85,7 @@ pip install -r requirements.txt
 ```
 Run Inference   
 ``` 
-python detect.py --data /home/pi/wkspace/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/custom_models/yolov5n.py  --imgsz 640 --conf 0.25
+python detect.py --data /home/pi/wkspace/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/custom_models/yolov5n.pt  --imgsz 640 --conf 0.25
 ```
 </details>
 
