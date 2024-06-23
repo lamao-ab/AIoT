@@ -104,7 +104,6 @@ pip install --upgrade ultralytics
 Run Inference>
 
 ```
-cd yolov8
 yolo task=detect mode=predict source= /home/pi/wkspace/SOD-2/test/images/  model=/home/pi/wkspace/custom_models/yolov8n.pt data=/home/pi/wkspace/SOD-2/data.yaml imgsz=640 conf=0.25 save=True 
 ```
 </details>
