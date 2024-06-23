@@ -87,9 +87,9 @@ Run Inference
 ``` 
 python detect.py --data /home/pi/wkspace/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/custom_models/yolov5n.pt  --imgsz 640 --conf 0.25
 ```
-Detection results are stored in /home/pi/wkspace/yolov5/runs/detect/exp/
+Detection results with yolov5n custom model are stored at: /home/pi/wkspace/yolov5/runs/detect/exp/
 
-![Detection with yolov5n custom model.](detect-yolov5n.jpg)
+![](detect-yolov5n.jpg)
 </details>
 
 <details>
