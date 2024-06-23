@@ -117,8 +117,13 @@ Predict with a test image::
 
 ```
 #set source=0 to start inference on webcam
-!yolo predict model=model=/home/pi/wkspace/custom_models/yolov8n.pt source='/home/pi/wkspace/test.jpg'
+yolo predict model=/home/pi/wkspace/custom_models/yolov8s.pt source='/home/pi/wkspace/test.jpg'
 ```
+Detection results with yolov5n custom model are stored at: /home/pi/wkspace/runs/detect/predict/
+
+![](detect-yolov8sn.jpg)
+
+
 </details>
 
 
