@@ -136,7 +136,7 @@ python detection_image_voice.py --modeldir=custom_models --image=enhanced-dark.j
 ```
 </details>
 
-## 4. low light image enhancement using Dark/Bright channel priors
+## 4. low light image enhancement module
 
 This script is a python implementation [6] of Nighttime low illumination image enhancement with single image using bright/dark channel prior [Paper](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0251-4).
 https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
