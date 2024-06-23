@@ -87,6 +87,9 @@ Run Inference
 ``` 
 python detect.py --data /home/pi/wkspace/SOD-2/data.yaml --source /home/pi/wkspace/SOD-2/test/images/ --weights /home/pi/wkspace/custom_models/yolov5n.pt  --imgsz 640 --conf 0.25
 ```
+Detection results are stored in /home/pi/wkspace/yolov5/runs/detect/exp/
+
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](https://myoctocat.com/assets/images/base-octocat.svg)
 </details>
 
 <details>
