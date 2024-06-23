@@ -114,6 +114,8 @@ yolo task=detect mode=predict source= /home/pi/wkspace/SOD-2/test/images/  model
   
 ```
 pip install tensorflow opencv-python protobuf==3.20.*
+# pyttsx3 is a text-to-speech conversion library in Python
+pip install pyttsx3
 ```
 </details>
 
@@ -123,7 +125,7 @@ Run the real-time webcam detection script by executing the following command fro
 demo is a folder that contain the model file and label classes file. 
   
 ```
-python detection_webcam_voice.py --modeldir=demo
+python detection_webcam_voice.py --modeldir=custom_models
 ```
 </details>
 
