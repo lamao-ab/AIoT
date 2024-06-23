@@ -121,7 +121,7 @@ yolo predict model=/home/pi/wkspace/custom_models/yolov8s.pt source='/home/pi/wk
 ```
 Detection results with yolov5n custom model are stored at: /home/pi/wkspace/runs/detect/predict/
 
-![](detect-yolov8sn.jpg)
+![](test.jpg)
 
 
 </details>
