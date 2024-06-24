@@ -99,9 +99,9 @@ eps = 1e-3   # for J image
 I = np.asarray(im, dtype=np.float64) # Convert the input to an array.
 I = I[:, :, :3] / 255
 
-f_enhanced2 = dehaze(I, tmin, w, alpha, omega, p, eps, True)
+lli_enhanced = dehaze(I, tmin, w, alpha, omega, p, eps, True)
 cv2.imshow('original', orig)
-cv2.imshow('lowlight_img_enhanced', f_enhanced2)
-cv2.imwrite('lowlight_img_enhanced.jpg', f_enhanced2)
+cv2.imshow('lowlight_img_enhanced', lli_enhanced)
+cv2.imwrite('lowlight_img_enhanced.jpg', lli_enhanced)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
