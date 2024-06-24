@@ -1,0 +1,33 @@
+names:
+- bench
+- bicycle
+- bus
+- bus_stop
+- cane
+- car
+- curb
+- dog
+- fire_hydrant
+- motorcycle
+- person
+- pole
+- spherical_roadblock
+- stairs
+- stop_sign
+- street_light
+- traffic_light
+- train
+- tree
+- truck
+- warning_column
+- waste_container
+nc: 22
+roboflow:
+  license: CC BY 4.0
+  project: ood-kllke
+  url: https://universe.roboflow.com/lamao/ood-kllke/dataset/2
+  version: 2
+  workspace: lamao
+test: ../test/images
+train: SOD-2/train/images
+val: SOD-2/valid/images
