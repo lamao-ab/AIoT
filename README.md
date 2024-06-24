@@ -11,7 +11,7 @@ To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](htt
 
 To Train, Validate and Test YOLOv8 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
 
-To Train, Validate and Test TFLite 2 models (efichientdet-d1, ssd mobilenet fpnlite, faster rcnn resnet50 v1) please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+To Train, Validate and Test TFLite 2 models (efichientdet-d1, ssd mobilenet fpnlite, faster rcnn resnet50 v1) please refer to : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](training_scripts/Tensorflow2_Models_Training_Script.ipynb)
 
 ## 3. Deploy on Raspberry Pi 
 <details>
