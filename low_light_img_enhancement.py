@@ -86,7 +86,7 @@ def reduce_init_t(init_t):
     init_t = init_t.astype(np.float64)/255
     return init_t
 
-im = cv2.imread('lowlight.jpg')
+im = cv2.imread('lowlight_img.jpg')
 orig = im.copy()
 
 tmin = 0.1   # minimum value for t to make J image
@@ -99,12 +99,9 @@ eps = 1e-3   # for J image
 I = np.asarray(im, dtype=np.float64) # Convert the input to an array.
 I = I[:, :, :3] / 255
 
-#f_enhanced = dehaze(I, tmin, w, alpha, omega, p, eps)
 f_enhanced2 = dehaze(I, tmin, w, alpha, omega, p, eps, True)
 cv2.imshow('original', orig)
-#cv2.imshow('F_enhanced', f_enhanced)
-#cv2.imwrite('F_enhanced.jpg', f_enhanced)
-cv2.imshow('img_enhanced', f_enhanced2)
-cv2.imwrite('img_enhanced.jpg', f_enhanced2)
+cv2.imshow('lowlight_img_enhanced', f_enhanced2)
+cv2.imwrite('lowlight_img_enhanced.jpg', f_enhanced2)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
