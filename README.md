@@ -43,7 +43,7 @@ git clone https://github.com/lamao-ab/object-detection-in-iot-devices.git
 rename the folder to "wkspace" and then enter into it:
 
 ```
-mv tinyml-Object-Detection-models wkspace
+mv object-detection-in-iot-devices wkspace
 cd wkspace
 ```
 
