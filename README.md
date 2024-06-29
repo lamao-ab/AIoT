@@ -37,7 +37,7 @@ Select the Interfaces tab and Enable the camera interface. and reboot the Raspbe
 Tap the command to clone this repository:
 
 ```
-git clone https://github.com/lamao-ab/tinyml-object-detection-models.git
+git clone https://github.com/lamao-ab/object-detection-in-iot-devices.git
 ```
 
 rename the folder to "wkspace" and then enter into it:
