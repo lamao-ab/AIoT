@@ -5,7 +5,7 @@
 
 ## 2. Training Scripts
 
-See the YOLOv5-v8 Docs and tensorflowlite tutorials for full documentation on training, testing and deployment.
+See the YOLOv5-v8 Docs and tensorflow 2 object detection api tutorials for full documentation on training, testing and deployment.
 
 To Train, Validate and Test YOLOv5 models please refer to: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1S2KgiI8kLQBoTxLyKhkGCroyUbCRJZQ4?usp=sharing)
 
