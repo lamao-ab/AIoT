@@ -1,5 +1,5 @@
 ## 1. Introduction
-We are sharing in this repository the training, evaluation, and deployment scripts for well-known lightweight object detection models, applied to a custom dataset designed to identify 22 objects commonly found on sidewalks. This is intended to assist blind and visually impaired people (BVIP). Our primary aim is to investigate the feasibility of deploying computationally intensive deep learning models on resource-constrained IoT devices. Secondly, we aim to create a portable, low-cost, and real-time assistive tool for the visually impaired.
+We are sharing in this repository the training, evaluation, and deployment scripts for well-known lightweight object detection models (YOLO, MobileNet, Effichientdet, etc.), applied to a custom dataset designed to identify 22 objects commonly found on sidewalks. This is intended to assist blind and visually impaired people (BVIP). Our primary aim is to investigate the feasibility of deploying computationally intensive deep learning models on resource-constrained IoT devices. Secondly, we aim to create a portable, low-cost, and real-time assistive tool for the visually impaired.
 
 ## 2. Training and evaluation Scripts
 
@@ -158,8 +158,10 @@ python detection_image_voice.py --modeldir=custom_models --image=enhanced-dark.j
 
 ## 4. Nighttime low illumination image enhancement
 
-This script is a python implementation [6] of Nighttime low illumination image enhancement with single image using bright/dark channel prior [Paper](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0251-4).
+This script is a python implementation of Nighttime low illumination image enhancement with single image using bright/dark channel prior [Paper](https://jivp-eurasipjournals.springeropen.com/articles/10.1186/s13640-018-0251-4).
 https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
+
+We have investigated the possibility of integrating such a method in the preprocessing stage of an object detection model. However, it takes a significant amount of time to preprocess a single image, which is not suitable for real-time processing applications.
 
 <details>
 <summary>Install dependencies and run image enhacement script</summary>
