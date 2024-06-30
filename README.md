@@ -1,7 +1,5 @@
-# A TinyML Object Detection Model
-<br/> 
-
 ## 1. Introduction
+We are sharing in this repository the training, evaluation, and deployment scripts for well-known lightweight object detection models, applied to a custom dataset designed to identify 22 objects commonly found on sidewalks. This is intended to assist blind and visually impaired people (BVIP). Our primary aim is to investigate the feasibility of deploying computationally intensive deep learning models on resource-constrained IoT devices. Secondly, we aim to create a portable, low-cost, and real-time assistive tool for the visually impaired.
 
 ## 2. Training Scripts
 
