@@ -172,7 +172,9 @@ pip install numpy opencv-contrib-python
 python low_light_img_enhancement.py
 ```
 
-![](detect-yolov5n.jpg)
+![](enhanced_images/lowlight.jpg)
+
+![](enhanced_images/lowlight_enhanced.jpg)
 </details>
 
 ## References
