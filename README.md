@@ -171,9 +171,9 @@ pip install numpy opencv-contrib-python
 ```
 python low_light_img_enhancement.py
 ```
-
+Image original:
 ![](enhanced_images/lowlight.jpg)
-
+Image enhanced:
 ![](enhanced_images/lowlight_enhanced.jpg)
 </details>
 
