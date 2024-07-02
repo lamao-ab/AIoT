@@ -185,7 +185,6 @@ Image enhanced:
 - [2] https://github.com/ultralytics/yolov5
 - [3] https://www.tensorflow.org/lite/guide/python
 - [4] https://github.com/tensorflow/tensorflow/tree/master/tensorflow/lite/examples/python
-- [5] https://colab.research.google.com/github/EdjeElectronics/TensorFlow-Lite-Object-Detection-on-Android-and-Raspberry-Pi/blob/master/Train_TFLite2_Object_Detction_Model.ipynb
-- [6] https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
+- [5] https://github.com/spmallick/learnopencv/tree/master/Improving-Illumination-in-Night-Time-Images/python
 
 
